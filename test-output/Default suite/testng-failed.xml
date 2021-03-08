@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="smartbytesRestAPI.restassured.TestCustomerAPI">
+      <class name="smartbytesRestAPI.restassured.ExtractHeaderAndCookieData">
         <methods>
-          <include name="tearDown"/>
           <include name="init"/>
-          <include name="test_search_customer_with_ID"/>
+          <include name="test_create_customer"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- smartbytesRestAPI.restassured.TestCustomerAPI -->
+      </class> <!-- smartbytesRestAPI.restassured.ExtractHeaderAndCookieData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

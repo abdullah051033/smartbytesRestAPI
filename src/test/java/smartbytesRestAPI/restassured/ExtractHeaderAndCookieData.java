@@ -14,7 +14,7 @@ import smartbytes.restassured.util.SmartBytesUtil;
 
 public class ExtractHeaderAndCookieData {
 	
-	private static final String BASE_URI = "http://localhost:9090/api";
+	private static final String BASE_URI = "http://localhost:8080/api";
 	
 	@BeforeClass
 	public static void init(){
