@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-08T14:21:53 EST" name="Default suite" finished-at="2021-03-08T14:21:56 EST" duration-ms="3215">
+  <suite started-at="2021-03-09T13:33:01 EST" name="Default suite" finished-at="2021-03-09T13:33:03 EST" duration-ms="1335">
     <groups>
     </groups>
-    <test started-at="2021-03-08T14:21:53 EST" name="Default test" finished-at="2021-03-08T14:21:56 EST" duration-ms="3215">
-      <class name="smartbytesRestAPI.restassured.ExtractJSONdata">
-        <test-method is-config="true" signature="init()[pri:0, instance:smartbytesRestAPI.restassured.ExtractJSONdata@3a079870]" started-at="2021-03-08T14:21:53 EST" name="init" finished-at="2021-03-08T14:21:53 EST" duration-ms="366" status="PASS">
+    <test started-at="2021-03-09T13:33:01 EST" name="Default test" finished-at="2021-03-09T13:33:03 EST" duration-ms="1335">
+      <class name="smartbytesRestAPI.restassured.EndToEndDataDrivenTest">
+        <test-method signature="EndToEndDataDrivenAPItest()[pri:0, instance:smartbytesRestAPI.restassured.EndToEndDataDrivenTest@7920ba90]" started-at="2021-03-09T13:33:01 EST" name="EndToEndDataDrivenAPItest" finished-at="2021-03-09T13:33:02 EST" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="extract_json_data()[pri:0, instance:smartbytesRestAPI.restassured.ExtractJSONdata@3a079870]" started-at="2021-03-08T14:21:53 EST" name="extract_json_data" finished-at="2021-03-08T14:21:56 EST" duration-ms="2832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extract_json_data -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:smartbytesRestAPI.restassured.ExtractJSONdata@3a079870]" started-at="2021-03-08T14:21:56 EST" name="tearDown" finished-at="2021-03-08T14:21:56 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- smartbytesRestAPI.restassured.ExtractJSONdata -->
+        </test-method> <!-- EndToEndDataDrivenAPItest -->
+      </class> <!-- smartbytesRestAPI.restassured.EndToEndDataDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
